@@ -1,6 +1,6 @@
-GIVEN a functional Express.js API
+<!-- GIVEN a functional Express.js API
 WHEN I add my database name, PostgreSQL username, and PostgreSQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
+THEN I am able to connect to a database using Sequelize -->
 WHEN I enter schema and seed commands
 THEN a development database is created and is seeded with test data
 WHEN I enter the command to invoke the application
