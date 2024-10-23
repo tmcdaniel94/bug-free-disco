@@ -18,8 +18,7 @@ router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
   try {
-    const tagData = await Tag.findByPk(req.params.id, {
-      // JOIN with travellers, using the Trip through table
+    const tagData = await Tag.findByPk(parseInt(req.params.id), {
       include: [{ model: Product, through: ProductTag, as: 'product_tag' }]
     });
 
@@ -52,7 +51,7 @@ router.put('/:id', (req, res) => {
     },
     {
       where: {
-        id: req.params.id,
+        id: parseInt(req.params.id),
       },
     }
   ) .then((updatedTag) => {
@@ -65,7 +64,7 @@ router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
   Tag.destroy({
     where: {
-      id: req.params.id,
+      id: parseInt(req.params.id),
     },
   })
   .then((deletedTag) => {
