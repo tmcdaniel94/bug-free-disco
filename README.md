@@ -12,8 +12,11 @@ Clone code into git and get started by entering 'npm install' in the terminal. E
 ## License
 MIT
 
-## Demo
-https://drive.google.com/file/d/12_t7clGYLldGjWbEP9WJYFY_u-UlmdUl/view?usp=sharing
+## Demos
+View install:
+[Link to Install Demo](https://drive.google.com/file/d/1RlAiMSp0XgHkDSlPaH1fF9aT0y5WuBNX/view?usp=sharing)
+View App Demo:
+[Link to App Usage Demo](https://drive.google.com/file/d/12_t7clGYLldGjWbEP9WJYFY_u-UlmdUl/view?usp=sharing)
 
 ## Repository Link
 https://github.com/tmcdaniel94/bug-free-disco/tree/main
